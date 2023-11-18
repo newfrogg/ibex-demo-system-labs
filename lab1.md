@@ -108,7 +108,7 @@ To build the software use the following commands in your terminal:
 cd /home/dev/demo
 mkdir -p sw/build/
 pushd sw/build/
-cmake ../../c
+cmake ../c
 make
 popd
 ```
