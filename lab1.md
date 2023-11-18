@@ -106,8 +106,8 @@ docker run -it --rm -p 6080:6080 -p 3333:3333 -v %cd%:/home/dev/demo:Z ibex
 To build the software use the following commands in your terminal:
 ```bash
 cd /home/dev/demo
-mkdir -p sw/build/c
-pushd sw/build/c
+mkdir -p sw/build/
+pushd sw/build/
 cmake ../../c
 make
 popd
